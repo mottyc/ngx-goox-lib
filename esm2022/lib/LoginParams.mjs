@@ -1,0 +1,9 @@
+// LoginParams model used for authorize user by email
+export class LoginParams {
+    constructor(email) {
+        if (email !== undefined) {
+            this.email = email;
+        }
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTG9naW5QYXJhbXMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9wcm9qZWN0cy9uZ3gtZ29veC1saWIvc3JjL2xpYi9Mb2dpblBhcmFtcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQSxxREFBcUQ7QUFDckQsTUFBTSxPQUFPLFdBQVc7SUFLbkIsWUFBWSxLQUFjO1FBQ3ZCLElBQUksS0FBSyxLQUFLLFNBQVMsRUFBRTtZQUFFLElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO1NBQUU7SUFDcEQsQ0FBQztDQUVKIiwic291cmNlc0NvbnRlbnQiOlsiXG5cblxuXG4vLyBMb2dpblBhcmFtcyBtb2RlbCB1c2VkIGZvciBhdXRob3JpemUgdXNlciBieSBlbWFpbFxuZXhwb3J0IGNsYXNzIExvZ2luUGFyYW1zIHtcbiBcbiAgICAvLyBVc2VyIGVtYWlsIFxuICAgIHB1YmxpYyBlbWFpbDogc3RyaW5nO1xuIFxuICAgICBjb25zdHJ1Y3RvcihlbWFpbD86IHN0cmluZykgeyBcbiAgICAgICAgaWYgKGVtYWlsICE9PSB1bmRlZmluZWQpIHsgdGhpcy5lbWFpbCA9IGVtYWlsOyB9XG4gICAgfVxuXG59XG5cblxuIl19
