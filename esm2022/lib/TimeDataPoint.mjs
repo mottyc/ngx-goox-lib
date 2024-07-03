@@ -1,0 +1,12 @@
+// TimeDataPoint model represents a generic datapoint in time
+export class TimeDataPoint {
+    constructor(timestamp, value) {
+        if (timestamp !== undefined) {
+            this.timestamp = timestamp;
+        }
+        if (value !== undefined) {
+            this.value = value;
+        }
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGltZURhdGFQb2ludC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL25neC1nb294LWxpYi9zcmMvbGliL1RpbWVEYXRhUG9pbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUEsNkRBQTZEO0FBQzdELE1BQU0sT0FBTyxhQUFhO0lBUXJCLFlBQVksU0FBa0IsRUFBRSxLQUFTO1FBQ3RDLElBQUksU0FBUyxLQUFLLFNBQVMsRUFBRTtZQUFFLElBQUksQ0FBQyxTQUFTLEdBQUcsU0FBUyxDQUFDO1NBQUU7UUFDNUQsSUFBSSxLQUFLLEtBQUssU0FBUyxFQUFFO1lBQUUsSUFBSSxDQUFDLEtBQUssR0FBRyxLQUFLLENBQUM7U0FBRTtJQUNwRCxDQUFDO0NBRUoiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuXG5cbi8vIFRpbWVEYXRhUG9pbnQgbW9kZWwgcmVwcmVzZW50cyBhIGdlbmVyaWMgZGF0YXBvaW50IGluIHRpbWVcbmV4cG9ydCBjbGFzcyBUaW1lRGF0YVBvaW50PFQ+IHtcbiBcbiAgICAvLyBEYXRhcG9pbnQgVGltZXN0YW1wIFxuICAgIHB1YmxpYyB0aW1lc3RhbXA6IG51bWJlcjtcbiBcbiAgICAvLyBHZW5lcmljIHZhbHVlIFxuICAgIHB1YmxpYyB2YWx1ZTogVDtcbiBcbiAgICAgY29uc3RydWN0b3IodGltZXN0YW1wPzogbnVtYmVyLCB2YWx1ZT86IFQpIHsgXG4gICAgICAgIGlmICh0aW1lc3RhbXAgIT09IHVuZGVmaW5lZCkgeyB0aGlzLnRpbWVzdGFtcCA9IHRpbWVzdGFtcDsgfVxuICAgICAgICBpZiAodmFsdWUgIT09IHVuZGVmaW5lZCkgeyB0aGlzLnZhbHVlID0gdmFsdWU7IH1cbiAgICB9XG5cbn1cblxuXG5cbiJdfQ==
