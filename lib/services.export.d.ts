@@ -1,0 +1,16 @@
+import { FlightTicketsEndPoint } from '.';
+import { FlightsEndPoint } from '.';
+import { SystemMessagesEndPoint } from '.';
+import { AccountsEndPoint } from '.';
+import { CampaignsEndPoint } from '.';
+import { CertificatesEndPoint } from '.';
+import { ContactsEndPoint } from '.';
+import { MaintenancesEndPoint } from '.';
+import { AuditLogsEndPoint } from '.';
+import { DocumentsEndPoint } from '.';
+import { LeadsEndPoint } from '.';
+import { MessageConfirmsEndPoint } from '.';
+import { UserEndPoint } from '.';
+import { AirplanesEndPoint } from '.';
+import { UsersEndPoint } from '.';
+export declare const Services: (typeof CertificatesEndPoint | typeof ContactsEndPoint | typeof MaintenancesEndPoint | typeof SystemMessagesEndPoint | typeof AccountsEndPoint | typeof CampaignsEndPoint | typeof LeadsEndPoint | typeof MessageConfirmsEndPoint | typeof UserEndPoint | typeof AuditLogsEndPoint | typeof DocumentsEndPoint | typeof AirplanesEndPoint | typeof UsersEndPoint | typeof FlightTicketsEndPoint | typeof FlightsEndPoint)[];
