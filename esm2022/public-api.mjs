@@ -1,8 +1,0 @@
-/*
- * Public API Surface of ngx-goox-lib
- */
-export * from './ngx-goox-lib.module';
-export * from './lib';
-export * from './utils';
-export * from './config';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1nb294LWxpYi9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsdUJBQXVCLENBQUM7QUFDdEMsY0FBYyxPQUFPLENBQUM7QUFDdEIsY0FBYyxTQUFTLENBQUM7QUFDeEIsY0FBYyxVQUFVLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1nb294LWxpYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbmd4LWdvb3gtbGliLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYic7XG5leHBvcnQgKiBmcm9tICcuL3V0aWxzJztcbmV4cG9ydCAqIGZyb20gJy4vY29uZmlnJzsiXX0=
