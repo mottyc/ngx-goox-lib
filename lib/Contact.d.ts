@@ -1,0 +1,32 @@
+import { AccountStatusCode } from '.';
+import { Address } from '.';
+import { ValidationFlag } from '.';
+import { BaseEntityEx } from '.';
+import { ColumnDef } from '.';
+export declare class Contact extends BaseEntityEx {
+    firstName: string;
+    lastName: string;
+    description: string;
+    title: string;
+    birthDay: number;
+    status: AccountStatusCode;
+    phone: string;
+    fax: string;
+    mobile: string;
+    primaryAddress: Address;
+    singleEngineHours: number;
+    dualEngineHours: number;
+    totalFlightHours: number;
+    groups: string[];
+    idNumber: string;
+    startToFlyDate: number;
+    authorizedToFlyBy: string;
+    authorizedPhotographyBy: string;
+    pilotLicense: string;
+    licenseTypes: string[];
+    licenseGroup: string;
+    medicalCertClass: string;
+    validations: ValidationFlag;
+    isPilot: boolean;
+}
+export declare function GetContactColumnsDef(): ColumnDef[];
