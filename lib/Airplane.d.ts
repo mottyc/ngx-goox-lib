@@ -1,0 +1,31 @@
+import { Propeller } from '.';
+import { Fuel } from '.';
+import { BaseEntityEx } from '.';
+import { ColumnDef } from '.';
+import { AirplaneStatusCode } from '.';
+import { AirplaneValidationFlag } from '.';
+import { Engine } from '.';
+import { Magneto } from '.';
+export declare class Airplane extends BaseEntityEx {
+    name: string;
+    description: string;
+    model: string;
+    serialNo: string;
+    status: AirplaneStatusCode;
+    hobs: number;
+    tach: number;
+    nextTach: number;
+    airTime: number;
+    customerNo: string;
+    airworthiness: AirplaneValidationFlag;
+    fixedValueToFirstFlight: number;
+    acTotalTime: number;
+    engine: Engine;
+    leftMagneto: Magneto;
+    rightMagneto: Magneto;
+    propeller: Propeller;
+    fuel: Fuel;
+    documents: string[];
+    prop(field: string): any;
+}
+export declare function GetAirplaneColumnsDef(): ColumnDef[];
