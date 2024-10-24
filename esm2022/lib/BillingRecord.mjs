@@ -1,0 +1,18 @@
+// BillingRecord is a single record in the total billing of the flight
+export class BillingRecord {
+    constructor(units, unitPrice, description, exempt) {
+        if (units !== undefined) {
+            this.units = units;
+        }
+        if (unitPrice !== undefined) {
+            this.unitPrice = unitPrice;
+        }
+        if (description !== undefined) {
+            this.description = description;
+        }
+        if (exempt !== undefined) {
+            this.exempt = exempt;
+        }
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQmlsbGluZ1JlY29yZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL25neC1nb294LWxpYi9zcmMvbGliL0JpbGxpbmdSZWNvcmQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUEsc0VBQXNFO0FBQ3RFLE1BQU0sT0FBTyxhQUFhO0lBY3JCLFlBQVksS0FBYyxFQUFFLFNBQWtCLEVBQUUsV0FBb0IsRUFBRSxNQUFnQjtRQUNuRixJQUFJLEtBQUssS0FBSyxTQUFTLEVBQUUsQ0FBQztZQUFDLElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO1FBQUMsQ0FBQztRQUNoRCxJQUFJLFNBQVMsS0FBSyxTQUFTLEVBQUUsQ0FBQztZQUFDLElBQUksQ0FBQyxTQUFTLEdBQUcsU0FBUyxDQUFDO1FBQUMsQ0FBQztRQUM1RCxJQUFJLFdBQVcsS0FBSyxTQUFTLEVBQUUsQ0FBQztZQUFDLElBQUksQ0FBQyxXQUFXLEdBQUcsV0FBVyxDQUFDO1FBQUMsQ0FBQztRQUNsRSxJQUFJLE1BQU0sS0FBSyxTQUFTLEVBQUUsQ0FBQztZQUFDLElBQUksQ0FBQyxNQUFNLEdBQUcsTUFBTSxDQUFDO1FBQUMsQ0FBQztJQUN2RCxDQUFDO0NBS0oiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuXG5cbi8vIEJpbGxpbmdSZWNvcmQgaXMgYSBzaW5nbGUgcmVjb3JkIGluIHRoZSB0b3RhbCBiaWxsaW5nIG9mIHRoZSBmbGlnaHRcbmV4cG9ydCBjbGFzcyBCaWxsaW5nUmVjb3JkIHtcbiBcbiAgICAvLyBCaWxsaW5nIHVuaXRzIC0gcXVhbnRpdHlfYyAvIHF1YW50aXR5XzJfYyBcbiAgICBwdWJsaWMgdW5pdHM6IG51bWJlcjtcbiBcbiAgICAvLyBQcmljZSBwZXIgVW5pdCAtIHByaWNlX2MgLyBwcmljZV8yX2MgXG4gICAgcHVibGljIHVuaXRQcmljZTogbnVtYmVyO1xuIFxuICAgIC8vIERlc2NyaXB0aW9uIGZvciBJbnZvaWNlIC0gaW52b2ljZV9kZXNjcmlwdGlvbl9jIC8gaW52b2ljZV9kZXNjcmlwdGlvbl8yX2MgXG4gICAgcHVibGljIGRlc2NyaXB0aW9uOiBzdHJpbmc7XG4gXG4gICAgLy8gRmxhZyB0byBpbmRpY2F0ZSBpZiBWQVQgaW5jbHVkZWQgKGZhbHNlKSBvciBFeGVtcHQgKHRydWUpIFxuICAgIHB1YmxpYyBleGVtcHQ6IGJvb2xlYW47XG4gXG4gICAgIGNvbnN0cnVjdG9yKHVuaXRzPzogbnVtYmVyLCB1bml0UHJpY2U/OiBudW1iZXIsIGRlc2NyaXB0aW9uPzogc3RyaW5nLCBleGVtcHQ/OiBib29sZWFuKSB7IFxuICAgICAgICBpZiAodW5pdHMgIT09IHVuZGVmaW5lZCkgeyB0aGlzLnVuaXRzID0gdW5pdHM7IH1cbiAgICAgICAgaWYgKHVuaXRQcmljZSAhPT0gdW5kZWZpbmVkKSB7IHRoaXMudW5pdFByaWNlID0gdW5pdFByaWNlOyB9XG4gICAgICAgIGlmIChkZXNjcmlwdGlvbiAhPT0gdW5kZWZpbmVkKSB7IHRoaXMuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbjsgfVxuICAgICAgICBpZiAoZXhlbXB0ICE9PSB1bmRlZmluZWQpIHsgdGhpcy5leGVtcHQgPSBleGVtcHQ7IH1cbiAgICB9XG5cblxuIFxuXG59XG5cblxuXG5cblxuXG5cbiJdfQ==
